@@ -6,16 +6,18 @@ body {
 }
 
 section {
-    background-color:rgba(245, 245, 245, 50%);
-    width:80%;
+    /* background-color:rgba(245, 245, 245, 50%); */
+    width: 9
+    0%;
   /*margin:0 auto centers a block element on the page */
     margin:0 auto;
 }
 
-/* paragraph text padding */
-p, form {
+/*paragraph text padding */
+ p {
     padding-left:5px;
     padding-right:5px;
+    background-color:rgba(245, 245, 245, .5)
 }
 
 /* border and margins for all images */
@@ -26,9 +28,13 @@ img {
     border-radius: 20px;
  }
 
-/* format for headshot image */
+#header_text {
+    border:none;
+}
+
+ /* format for headshot image */
 #headshot {
-    display:block;
+    display:float;
     margin-left:auto;
     margin-right:auto;
     max-width: 100%;
@@ -43,12 +49,52 @@ img {
     max-height: auto;
 }
 
+/* #hobbies {
+    display: inline-grid;
+    grid-gap: 10px 100px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-content: center;
+  } */
+
+  /* .item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .item2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .item4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  } */
+
+
+
 /* heading color for all h1 headings */
 h1{
-    color:rgb(173, 5, 5);
+    color:#DD2323;
     padding: 5px;
 }
 
 ul{
     list-style-type:disc;
 }
+
